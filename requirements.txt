@@ -1,0 +1,41 @@
+# requirements.txt for HubStack AI CIDAR Challenge Solution
+
+# Core Libraries
+numpy>=1.23.0
+pandas>=1.5.0
+torch>=2.0.0
+torchvision>=0.15.0
+tqdm>=4.64.0
+opencv-python>=4.7.0
+matplotlib>=3.6.0
+
+# Data Augmentation and Transformations
+albumentations>=1.3.0
+albumentations[imgaug]>=1.3.0
+
+# Model and Optimization Libraries
+onnx>=1.14.0
+onnxruntime-gpu>=1.15.0
+torch-tensorrt>=1.4.0
+
+# Hardware-Specific Libraries (Optional but Recommended)
+tvm>=0.12.0
+
+# Dataset Management and Cloud Access
+kagglehub>=0.1.5  # For downloading datasets from Kaggle and Hugging Face
+boto3>=1.26.0     # AWS SDK for Python
+
+# Utility and Testing Libraries
+pytest>=7.2.0
+pytest-cov>=4.0.0
+
+# For Docker-based Deployment (if needed)
+uvicorn>=0.22.0
+fastapi>=0.95.0
+
+# Jupyter Notebook Support (Optional)
+jupyterlab>=3.6.0
+
+# Version Control and Code Quality (Optional)
+black>=23.1.0
+flake8>=6.0.0
