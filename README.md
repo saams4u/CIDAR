@@ -151,15 +151,6 @@ python src/optimize.py --model ViT --checkpoint models/checkpoints/ViT_best_mode
 
 ## 📬 **Contact & Collaboration**
 📩 **Email:** [smahjouri@hubstack.ai](mailto:smahjouri@hubstack.ai)  
-🔗 **GitHub Repository:** [CIDAR Solution](https://github.com/saams4u/CIDAR)  
+🔗 **LinkedIn:** [Saamahn Mahjouri](https://www.linkedin.com/in/smahjouri)
 
 We encourage **contributions, feedback, and collaborations** to further enhance the performance and usability of our **CIDAR solution**.
-
----
-
-### ✅ **Why This README is Improved?**
-✔ **Clear, structured sections** for **easy navigation**  
-✔ **Concise technical breakdown** of **AI models, hardware, and software stack**  
-✔ **Step-by-step installation** and **deployment guide**  
-✔ **Tables & visuals** for quick readability  
-✔ **Professional formatting for clarity and impact**  
