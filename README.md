@@ -97,7 +97,6 @@ To enhance model **robustness, generalization, and real-world adaptability**, we
 |------------|---------------|------------|
 | [DOTA Aerial Imagery](https://captain-whu.github.io/DOTA/index.html) | Large-scale ISR dataset. | Validates object detection in aerial images. |
 | [xView Satellite](https://xviewdataset.org/) | 1M labeled objects from satellite imagery. | Enhances ISR applications. |
-| [SPEAR Radar Dataset](https://www.nasa.gov/spear) | Synthetic radar imagery. | Multi-spectral fusion with optical sensors. |
 
 ### **🔹 Autonomous Systems & AR**
 | **Dataset** | **Description** | **Use Case** |
