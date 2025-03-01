@@ -76,7 +76,6 @@ To enhance model **robustness, generalization, and real-world adaptability**, we
 |------------|---------------|------------|
 | [KAIST Multi-Spectral](https://soonminhwang.github.io/rgbt-ped-detection/) | RGB + LWIR dataset for detection tasks. | Validates spectral fusion in low-light/foggy conditions. |
 | [EO-1 Hyperion](https://earthexplorer.usgs.gov/) | 220-band hyperspectral imagery. | Enhances spectral fusion across UV, VIS, NIR, SWIR, LWIR. |
-| [MUUFL Gulfport](https://sites.google.com/site/gulfporthyperspectral/) | Ground-based hyperspectral dataset. | Terrain-specific spectral calibration and object detection. |
 
 ### **🔹 Passive Depth Estimation & Range Measurement**
 | **Dataset** | **Description** | **Use Case** |
@@ -89,7 +88,6 @@ To enhance model **robustness, generalization, and real-world adaptability**, we
 | **Dataset** | **Description** | **Use Case** |
 |------------|---------------|------------|
 | [RESIDE Foggy Dataset](https://sites.google.com/view/reside-dehaze-datasets/) | Synthetic & real foggy images. | Improves robustness in low-visibility conditions. |
-| [UAE2FCD Foggy Cityscapes](https://www.sciencedirect.com/science/article/pii/S2665963821000313) | High-resolution foggy urban dataset. | Tests models under dense haze. |
 | [FLIR Thermal](https://www.flir.com/oem/adas/adas-dataset-form/) | RGB + LWIR images for night vision. | Enhances spectral fusion in adverse conditions. |
 
 ### **🔹 Defense & ISR-Oriented**
