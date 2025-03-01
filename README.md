@@ -46,28 +46,6 @@ Our **preliminary open-source implementation** provides an **early-stage concept
 
 ---
 
-## 📸 **Multi-Spectral Data Acquisition**
-### **🔬 Data Collection Process**
-Our **high-resolution multi-sensor platform** ensures **precise, synchronized data acquisition** across multiple spectral bands.
-
-**🛠 Hardware Setup:**
-- **Multi-Spectral Cameras**: **UV, VIS, NIR, SWIR, LWIR** aligned to **sub-pixel accuracy**
-- **Environmental Sensors**: Measures **temperature, humidity, and atmospheric pressure**
-- **Frame Rate**: **120 FPS** for high-temporal resolution
-- **Data Bandwidth**: Supports up to **1 GB/s** for high-resolution data streams
-
-### **🗂 Data Processing Pipeline**
-1. **Raw Data Capture:** UAV-based imaging over diverse terrains and lighting conditions  
-2. **Calibration & Alignment:** Automatic **lens distortion correction, chromatic aberration removal**  
-3. **Multi-Frame Fusion:** **Spectral fusion pipelines** adaptively enhance signal quality  
-4. **Preprocessing:** Noise filtering, resolution scaling, and environmental metadata integration  
-
-### **🌎 Environmental Adaptability**
-- **Weather Conditions:** **Sunny, cloudy, foggy, rainy** scenarios
-- **Terrain Variability:** **Urban, forest, water bodies** for enhanced model robustness
-
----
-
 ## **📊 Open-Source Datasets for Model Training & Validation**
 To enhance model **robustness, generalization, and real-world adaptability**, we leverage **publicly available datasets** for **multi-spectral fusion, depth estimation, adverse weather adaptation, and ISR applications**.
 
