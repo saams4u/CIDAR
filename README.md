@@ -1,9 +1,40 @@
+
 # **HubStack AI CIDAR Challenge Solution**
 
 ## 🚀 **Overview**
-HubStack AI, Inc. presents a **state-of-the-art passive imaging solution** for the **CIDAR Challenge**, designed to exceed performance requirements through **multi-spectral fusion, deep learning, and hardware-aware optimizations**.
+HubStack AI, Inc. presents a **state-of-the-art passive imaging solution** for the **Computational Imaging Detection and Ranging (CIDAR) Challenge**, a **DARPA initiative** aimed at revolutionizing **high-accuracy, low-latency passive range measurement algorithms**.
 
-### **🌟 Key Highlights:**
+### **📌 What is the CIDAR Challenge?**
+Traditional **active ranging methods**, such as **LADAR (Laser Detection and Ranging) and LRF (Laser Range Finding)**, rely on emitted laser radiation, which can **compromise stealth, pose safety hazards, and be susceptible to detection or jamming**. **Passive imaging**, in contrast, does not emit signals, making it inherently undetectable and more secure for **intelligence, surveillance, reconnaissance (ISR), and sense-and-avoid (SAA) applications**.
+
+DARPA's **CIDAR Challenge** seeks **passive ranging algorithms** that can **match or exceed** the performance of active systems while minimizing **floating-point operations (FLOPs)** for **low-latency, real-time processing**. Current passive imaging approaches capture **only ~1% of the theoretical distance information** available in images. By integrating **spatial, spectral, and temporal filtering**, CIDAR aims to **increase accuracy by 10x–100x**, potentially enabling **passive rangefinding at distances beyond 10 km**—a capability that would revolutionize **autonomous navigation, augmented reality, and military reconnaissance**.
+
+### **🎯 Desired Outcomes for the Department of Defense (DOD)**
+The **CIDAR Challenge** plays a crucial role in advancing **national defense and civilian applications**, offering **key advantages** over traditional active ranging systems:
+
+1. **Beyond Active Ranging Limitations**  
+   - Current **active ranging systems** for ISR **emit detectable radiation**, putting operators at risk.  
+   - CIDAR enables a **zero-emission passive ranging solution**, making ISR operations stealthier.
+
+2. **Operational Superiority on the Battlefield**  
+   - **High-accuracy passive rangefinding** supports **faster targeting** with **minimal response time** for adversaries.  
+   - This increases **tactical effectiveness** in **rapid decision-making scenarios**.
+
+3. **Reduced Size, Weight, and Power (SWaP) & Cost**  
+   - Advanced **software-driven range detection** reduces reliance on **bulky, power-hungry hardware**.  
+   - CIDAR-based solutions provide a **lighter, more efficient, and cost-effective** alternative for **DOD operations**.
+
+4. **Improved Access to Civil Airspace**  
+   - **Unmanned aircraft systems (UAS)** require **safer navigation** in civil airspace.  
+   - CIDAR enables **passive-only sense-and-avoid (SAA) solutions**, facilitating **non-cooperative air traffic detection**.
+
+5. **Enhancing Transportation & Safety**  
+   - CIDAR improves **autonomous vehicle algorithms** by overlaying **real-time range data** onto images.  
+   - **Augmented reality systems** benefit from precise **depth perception**, improving **situational awareness** for drivers and operators.
+
+### **🌟 HubStack AI's Approach**
+Our solution is designed to **push the boundaries of passive imaging accuracy and efficiency**, integrating **multi-spectral fusion, deep learning models, and hardware-aware optimizations** to exceed the challenge's stringent performance requirements.
+
 - **Accuracy:** **Sub-±5 m** beyond **10 km**
 - **Low Latency:** **Sub-150 ms** on **edge devices**, **sub-80 ms** in **cloud deployments**
 - **Projected CIDAR Score:** **40 points** (**exceeding the 30-point requirement**)
@@ -63,81 +94,6 @@ Our **high-resolution multi-sensor platform** ensures **precise, synchronized da
 
 ---
 
-## 🛠 **Technical Details**
-### **🖥 AI Models & Algorithms**
-- **Multi-Spectral Fusion**: **ViTs + Mamba** for cross-spectral information extraction
-- **Spatial Feature Extraction**: **ConvNeXt V3**
-- **Temporal Modeling**: **TFTs + Bi-GRUs** for stable distance estimation
-- **Optimization Techniques**:
-  - **Neural Architecture Search (NAS)**
-  - **Structured pruning & quantization**
-  - **Sparse attention mechanisms for computational efficiency**
-
-### **⚙️ Hardware & Computational Performance**
-| **Hardware** | **Latency** | **Performance** |
-|-------------|------------|----------------|
-| **Edge:** NVIDIA Jetson Orin NX | **<150 ms** | Low-power inference |
-| **Cloud:** AWS EC2 P5 (H100 GPUs) | **<80 ms** | High-throughput processing |
-| **Bandwidth** | **Up to 1 GB/s** | High-resolution sensor data ingestion |
-
-### **📦 Software Stack**
-- **Frameworks:** PyTorch 2.2, TensorFlow 2.15, ONNX Runtime
-- **Optimization:** TVM, TensorRT 10, DeepSpeed
-- **Data Processing:** Albumentations, Kornia
-- **Deployment:** Docker, AWS, Edge AI Pipelines
-
----
-
-## 🚀 **Setup & Installation**
-### **🔧 Prerequisites**
-- **Python 3.10+**
-- **CUDA 12.0+ (for GPU acceleration)**
-- **PyTorch, TensorFlow, TensorRT installed**
-- **NVIDIA Jetson SDK (for edge deployment)**
-
-### **🛠 Installation Steps**
-```bash
-# Clone the repository
-git clone https://github.com/saams4u/CIDAR.git
-cd CIDAR
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Prepare Data (Place multi-spectral images in data/raw/)
-python src/preprocess.py
-
-# Train Models
-python src/train.py --model ViT
-
-# Run Inference
-bash deploy/edge.sh ViT    # Edge Deployment
-bash deploy/cloud.sh ConvNeXtV3  # Cloud Deployment
-
-# Optimize Models
-python src/optimize.py --model ViT --checkpoint models/checkpoints/ViT_best_model.pth
-```
-
----
-
-## 📅 **Development Roadmap**
-✅ **Month 1:** Data preprocessing & model baselines  
-✅ **Months 2-4:** Model training, optimization, and edge/cloud deployment  
-✅ **Month 5:** Field testing under real-world conditions  
-✅ **Month 6:** Final validation & CIDAR Challenge submission  
-
----
-
-## ⚠️ **Risk Mitigation Strategies**
-| **Risk** | **Mitigation Strategy** |
-|----------|------------------------|
-| **Sensor Misalignment** | Auto-calibration + redundancy |
-| **Data Corruption** | Error-checking & backup storage |
-| **Harsh Weather Conditions** | Adaptive spectral weighting |
-| **Operational Delays** | Agile sprints + bi-weekly checkpoints |
-
----
-
 ## 📈 **Performance Metrics**
 | **Metric** | **Result** |
 |-----------|----------|
@@ -151,6 +107,6 @@ python src/optimize.py --model ViT --checkpoint models/checkpoints/ViT_best_mode
 
 ## 📬 **Contact & Collaboration**
 📩 **Email:** [smahjouri@hubstack.ai](mailto:smahjouri@hubstack.ai)  
-🔗 **LinkedIn:** [Saamahn Mahjouri](https://www.linkedin.com/in/smahjouri)
+🔗 **LinkedIn:** [Saamahn Mahjouri](https://www.linkedin.com/in/smahjouri)  
 
 We encourage **contributions, feedback, and collaborations** to further enhance the performance and usability of our **CIDAR solution**.
