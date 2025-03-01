@@ -94,20 +94,21 @@ Our **high-resolution multi-sensor platform** ensures **precise, synchronized da
 
 ---
 
-📅 Development Roadmap
-✅ Month 1: Data preprocessing & model baselines
-✅ Months 2-4: Model training, optimization, and edge/cloud deployment
-✅ Month 5: Field testing under real-world conditions
-✅ Month 6: Final validation & CIDAR Challenge submission
+## 📅 **Development Roadmap**
+✅ **Month 1:** Data preprocessing & model baselines  
+✅ **Months 2-4:** Model training, optimization, and edge/cloud deployment  
+✅ **Month 5:** Field testing under real-world conditions  
+✅ **Month 6:** Final validation & CIDAR Challenge submission  
 
 ---
 
-⚠️ Risk Mitigation Strategies
-Risk	Mitigation Strategy
-Sensor Misalignment	Auto-calibration + redundancy
-Data Corruption	Error-checking & backup storage
-Harsh Weather Conditions	Adaptive spectral weighting
-Operational Delays	Agile sprints + bi-weekly checkpoints
+## ⚠️ **Risk Mitigation Strategies**
+| **Risk** | **Mitigation Strategy** |
+|----------|------------------------|
+| **Sensor Misalignment** | Auto-calibration + redundancy |
+| **Data Corruption** | Error-checking & backup storage |
+| **Harsh Weather Conditions** | Adaptive spectral weighting |
+| **Operational Delays** | Agile sprints + bi-weekly checkpoints |
 
 ---
 
