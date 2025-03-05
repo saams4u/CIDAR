@@ -209,13 +209,20 @@ By combining **custom multi-spectral imaging with open datasets**, **HubStack AI
 
 ---
 
-## ⚠️ **Risk Mitigation Strategies**
-| **Risk** | **Mitigation Strategy** |
-|----------|------------------------|
-| **Sensor Misalignment** | Auto-calibration + redundancy |
-| **Data Corruption** | Error-checking & backup storage |
-| **Harsh Weather Conditions** | Adaptive spectral weighting |
-| **Operational Delays** | Agile sprints + bi-weekly checkpoints |
+## **⚠️ Risk Mitigation Strategies**  
+
+To ensure **robust performance, reliability, and operational efficiency**, we have developed a **comprehensive risk mitigation plan** addressing **technical, environmental, and logistical challenges**.  
+
+| **Risk Category** | **Potential Issue** | **Mitigation Strategy** | **Impact Reduction** |
+|------------------|--------------------|-------------------------|----------------------|
+| **Hardware Calibration** | **Sensor misalignment** due to vibration, temperature shifts, or mechanical stress | **Automated real-time calibration**, redundant sensor arrays, and **adaptive compensation algorithms** to correct drift | **Minimizes accuracy degradation** and ensures stable ranging performance |
+| **Data Integrity** | **Corruption, loss, or inconsistencies** in multi-spectral image streams | **Error-correcting codes (ECC)**, real-time checksum validation, **redundant storage** (local/cloud) | **Prevents loss of critical range data**, ensuring accurate measurements |
+| **Environmental Factors** | **Adverse weather (fog, rain, haze, extreme lighting)** reducing depth estimation accuracy | **Adaptive spectral weighting**, dynamic noise filtering, and **multi-frame temporal fusion** to compensate for degraded visibility | **Enhances performance in challenging conditions**, reducing RMSE errors |
+| **Computational Load** | **High FLOP demand causing latency spikes** during inference | **Neural Architecture Search (NAS), quantization (FP16/INT8), and TensorRT optimizations** | **Maintains real-time inference (<150 ms latency)**, ensuring CIDAR compliance |
+| **Operational Delays** | **Development bottlenecks, integration setbacks, or hardware procurement delays** | **Agile sprints, milestone-based tracking, and risk-adaptive scheduling** | **Reduces project timeline risk**, maintaining competition deadlines |
+| **Deployment & Scaling** | **Inconsistent performance across different hardware platforms** | **Hardware-aware model tuning** for Jetson Orin NX (edge) & AWS EC2 P5 (cloud), **containerized deployment with Docker** | **Ensures consistent performance across edge and cloud environments** |
+
+📌 **Key Takeaway:** This proactive **multi-layered risk mitigation framework** ensures **CIDAR compliance, real-world robustness, and seamless deployment** across **dynamic operational environments**. 
 
 ---
 
