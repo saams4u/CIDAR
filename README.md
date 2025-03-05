@@ -161,29 +161,40 @@ By combining **custom multi-spectral imaging with open datasets**, **HubStack AI
 
 ---
 
-## 📂 **Project Structure**
+## **📂 Project Directory Structure**  
+
+The **CIDAR Challenge solution** is organized into a **modular, scalable directory structure** to support **data preprocessing, model training, inference, and deployment** across edge and cloud environments.  
+
 ```
-📂 cidar-challenge/
+📂 cidar-challenge/                 # Root project directory
 ├── 📁 data/                        # Multi-spectral data & metadata
-│   ├── 📁 raw/                     # Raw images and sensor data
-│   ├── 📁 processed/                # Preprocessed, aligned, and fused data
-│   └── environmental_metadata.csv  # Synchronized sensor readings
-├── 📁 models/                      # Pre-trained and optimized AI models
+│   ├── 📁 raw/                     # Unprocessed sensor data (UV, VIS, NIR, SWIR, LWIR)
+│   ├── 📁 processed/                # Preprocessed, aligned, and fused multi-spectral images
+│   └── environmental_metadata.csv  # Synchronized metadata (temperature, humidity, sensor calibration)
+├── 📁 models/                      # Pre-trained and optimized deep learning models
 │   ├── checkpoints/                # Training checkpoints (ViT, ConvNeXt V3, TFT)
-│   ├── optimized/                   # ONNX, TensorRT, and TorchScript models
-├── 📁 src/                         # Core source code
-│   ├── preprocess.py               # Data processing pipeline
-│   ├── train.py                    # Model training script
-│   ├── inference.py                 # Model inference and evaluation
-│   ├── optimize.py                  # Model compression & pruning
-├── 📁 tests/                       # Unit and integration tests
-├── 📁 deploy/                      # Deployment scripts (Edge & Cloud)
-│   ├── edge.sh                      # Edge device deployment
-│   ├── cloud.sh                     # Cloud deployment automation
-│   └── docker/                      # Docker containerization
-├── requirements.txt                # Python dependencies
-└── README.md                       # Project documentation
+│   ├── optimized/                   # ONNX, TensorRT, and TorchScript optimized models for edge/cloud
+├── 📁 src/                         # Core source code for data processing, training, and inference
+│   ├── preprocess.py               # Data preprocessing pipeline (denoising, alignment, spectral fusion)
+│   ├── train.py                    # Model training script (multi-spectral depth estimation)
+│   ├── inference.py                 # Model inference and real-time evaluation script
+│   ├── optimize.py                  # Model compression, quantization, and pruning for efficiency
+├── 📁 tests/                       # Unit and integration tests for accuracy, latency, and robustness
+├── 📁 deploy/                      # Deployment scripts for edge and cloud environments
+│   ├── edge.sh                      # Edge deployment script (Jetson Orin NX)
+│   ├── cloud.sh                     # Cloud deployment automation (AWS EC2 P5, H100 GPUs)
+│   └── docker/                      # Docker containerization for scalable deployment
+├── requirements.txt                # Python dependencies for reproducibility
+└── README.md                       # Project documentation and setup instructions
 ```
+
+📌 **Key Optimizations:**  
+- **Clear separation of data, models, and source code** for easy navigation.  
+- **Optimized model directory** to store both **training checkpoints and deployment-ready models**.  
+- **Preprocessing & optimization scripts** ensure **real-time efficiency** on **edge (Jetson Orin NX) and cloud (AWS EC2 P5, H100 GPUs)**.  
+- **Modular deployment strategy** supports **containerized execution via Docker**.  
+
+🚀 **This structure enables streamlined development, testing, and deployment** for the CIDAR Challenge while ensuring **scalability, maintainability, and high performance** in real-world use cases.
 
 ---
 
