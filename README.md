@@ -201,11 +201,18 @@ By combining **custom multi-spectral imaging with open datasets**, **HubStack AI
 
 ---
 
-## 📅 **Development Roadmap**
-✅ **Month 1:** Data preprocessing & model baselines  
-✅ **Months 2-4:** Model training, optimization, and edge/cloud deployment  
-✅ **Month 5:** Field testing under real-world conditions  
-✅ **Month 6:** Final validation & CIDAR Challenge submission  
+## **📅 Development Roadmap**  
+
+Our **structured development timeline** ensures **efficient execution, risk mitigation, and milestone-based progress tracking**, aligning with CIDAR’s evaluation phases.  
+
+| **Phase** | **Timeline** | **Key Milestones & Deliverables** |
+|----------|------------|---------------------------------|
+| **Phase 1: Data Preparation & Baseline Modeling** | **Month 1** | ✅ Curate multi-spectral datasets (EO-1 Hyperion, KAIST, KITTI)  <br> ✅ Preprocess raw data (noise reduction, spectral alignment, temporal synchronization) <br> ✅ Implement baseline **monocular & stereo depth estimation models** for benchmarking |
+| **Phase 2: Model Training & Optimization** | **Months 2-4** | ✅ Train deep learning models (**ViTs, Mamba SSMs, ConvNeXt V3**) <br> ✅ Optimize spectral fusion techniques (**adaptive spectral weighting, multi-frame temporal filtering**) <br> ✅ Apply **Neural Architecture Search (NAS)** & **hardware-aware optimizations (TensorRT, INT8 quantization)** <br> ✅ Conduct **lab-based performance testing** on accuracy, latency, and FLOP efficiency |
+| **Phase 3: Real-World Field Testing** | **Month 5** | ✅ Deploy models on **Jetson Orin NX (edge) & AWS EC2 P5 (cloud)** <br> ✅ Perform **field tests in varied environments** (urban, foggy, night, ISR settings) <br> ✅ Evaluate performance on **CIDAR criteria (accuracy, latency, computational efficiency)** <br> ✅ Identify and refine edge cases for extreme conditions (low-light, high-speed motion, occlusions) |
+| **Phase 4: Final Validation & Submission** | **Month 6** | ✅ Final model refinements based on **field test results** <br> ✅ Conduct **stress testing & edge case analysis** <br> ✅ Prepare & submit **CIDAR White Paper, source code, and research paper** <br> ✅ Ensure compliance with **DARPA evaluation criteria & submission guidelines** |
+
+📌 **Key Takeaway:** This **phased roadmap ensures systematic progress**, allowing us to **meet CIDAR milestones while maintaining flexibility for iterative improvements**. 
 
 ---
 
