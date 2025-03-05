@@ -2,7 +2,7 @@
 # **HubStack AI CIDAR Challenge Solution**
 
 ## 🚀 **Overview**
-HubStack AI presents a **state-of-the-art passive imaging solution** for the **Computational Imaging Detection and Ranging (CIDAR) Challenge**, a **DARPA initiative** aiming to revolutionize **high-accuracy, low-latency passive ranging algorithms**.
+HubStack AI delivers a **cutting-edge passive imaging solution** for the **Computational Imaging Detection and Ranging (CIDAR) Challenge**, a **DARPA initiative** designed to advance **high-precision, low-latency passive ranging technology**. Our approach leverages **multi-spectral fusion, deep learning, and hardware-aware optimizations** to surpass **traditional depth estimation limitations**, enabling **stealthy, real-time, and long-range distance measurement** in complex environments.
 
 ### **📌 What is the CIDAR Challenge?**
 Current **active ranging methods** (e.g., **LADAR, LRF**) rely on emitted laser radiation, which compromises **stealth, safety, and resistance to jamming**. In contrast, **passive imaging** does not emit detectable signals, making it ideal for **ISR, autonomous navigation, and battlefield awareness**. DARPA's **CIDAR Challenge** seeks **passive ranging solutions** that **match or exceed** the performance of active systems while **minimizing floating-point operations (FLOPs)** for real-time processing. Passive imaging currently **extracts only ~1% of the theoretical distance information** in images, but by integrating **multi-spectral fusion, spatial filtering, and deep learning**, CIDAR aims to **improve accuracy by 10x–100x**, potentially enabling **passive rangefinding beyond 10 km**.  
