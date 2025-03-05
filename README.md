@@ -153,8 +153,11 @@ Even with a **custom hardware setup**, open-source datasets provide **critical a
 
 ### **📌 Final Takeaway: We Need Both**
 ✅ **Our own hardware data ensures our models are optimized for CIDAR-specific hardware and mission constraints.**  
+
 ✅ **Open-source datasets fill in gaps (adverse weather, extreme conditions, missing spectral bands) and improve generalization.**  
+
 ✅ **Benchmarking against public datasets validates our models against global AI performance standards.**  
+
 ✅ **Training on large datasets first accelerates model convergence and improves final performance on proprietary data.**  
 
 By combining **custom multi-spectral imaging with open datasets**, **HubStack AI's CIDAR solution** ensures it is **more robust, accurate, and competitive** than purely proprietary or purely open-source approaches. 
