@@ -244,22 +244,30 @@ To ensure **robust performance, reliability, and operational efficiency**, we ha
 
 ---
 
-## **📈 Performance Mapping to CIDAR Scoring Criteria**  
+## **📈 Performance Alignment with CIDAR Scoring Criteria**  
 
-### **CIDAR Scoring Model (40-Point Projection)**  
-| **Performance Metric** | **HubStack AI Results** | **CIDAR Score Contribution** |
-|------------------------|------------------------|------------------------------|
-| **Accuracy at 10 km** | **±4.1m** | **15 Points** |
-| **Accuracy at 2 km** | **±0.2m** | **10 Points** |
-| **Latency (Edge)** | **<150 ms** | **5 Points** |
-| **Latency (Cloud)** | **<80 ms** | **5 Points** |
-| **Computational Load (FLOPs)** | **≤200 GFLOPs** | **5 Points** |
-| **Total Projected Score** | **40+ Points** | **Exceeds 30-Point Threshold** |
+### **Projected CIDAR Score: 40+ (Exceeding 30-Point Threshold)**  
 
-📌 **Key Takeaways**:  
-- Our **accuracy improvements** directly **map to CIDAR’s highest-scoring thresholds**.  
-- **Low-latency inference + FLOP efficiency** ensures **tie-breaking competitiveness**.  
-- This **exceeds the CIDAR baseline**, positioning HubStack AI as **a leading candidate**.  
+| **Performance Metric**        | **HubStack AI Results** | **CIDAR Score Contribution** |
+|------------------------------|------------------------|------------------------------|
+| **Accuracy at 10 km**        | **±4.1m**              | **15 Points** |
+| **Accuracy at 2 km**         | **±0.2m**              | **10 Points** |
+| **Inference Latency (Edge)** | **<150 ms**            | **5 Points** |
+| **Inference Latency (Cloud)**| **<80 ms**             | **5 Points** |
+| **Computational Load (FLOPs)** | **≤200 GFLOPs**      | **5 Points** |
+| **Total Projected Score**    | **40+ Points**         | **Surpasses CIDAR Benchmark** |
+
+📌 **Key Advantages & Competitive Edge:**  
+
+✅ **Superior Accuracy & Resolution** – Achieves **±4.1m at 10 km**, ensuring **high-confidence ranging** in ISR and autonomous navigation scenarios.  
+
+✅ **Ultra-Low Latency Processing** – Optimized **edge inference (<150 ms)** and **cloud inference (<80 ms)** for **real-time decision-making**.  
+
+✅ **Computational Efficiency** – **≤200 GFLOPs**, balancing **power efficiency and high performance**, ensuring **scalability across edge and cloud**.  
+
+✅ **Tie-Breaking Competitiveness** – Low FLOP count and high accuracy place **HubStack AI ahead of competitors** in **performance-based rankings**.  
+
+🚀 **With a projected 40+ CIDAR score, HubStack AI exceeds the competition baseline and secures a strong position for funding and top-tier ranking.**
 
 ---
 
