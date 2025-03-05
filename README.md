@@ -283,8 +283,11 @@ To ensure **robust performance, reliability, and operational efficiency**, we ha
 
 ---
 
-## 📬 **Contact & Collaboration**
-📩 **Email:**      [smahjouri@hubstack.ai](mailto:smahjouri@hubstack.ai)  
-🔗 **LinkedIn:**   [Saamahn Mahjouri](https://www.linkedin.com/in/smahjouri)  
+## 📬 **Contact & Collaboration**  
 
-We encourage **contributions, feedback, and collaborations** to further enhance the performance and usability of our **CIDAR solution**.
+We welcome **partnerships, technical discussions, and contributions** to advance our **CIDAR Challenge solution**. Whether you're a **researcher, engineer, or industry expert**, we invite you to collaborate and help refine our approach.  
+
+📩 **Email:** [smahjouri@hubstack.ai](mailto:smahjouri@hubstack.ai)  
+🔗 **LinkedIn:** [Saamahn Mahjouri](https://www.linkedin.com/in/smahjouri)  
+
+📌 **Let’s push the boundaries of passive ranging together!** 
