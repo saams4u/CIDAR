@@ -2,12 +2,12 @@
 # **HubStack AI CIDAR Challenge Solution**
 
 ## 🚀 **Overview**
-HubStack AI presents a **state-of-the-art passive imaging solution** for the **Computational Imaging Detection and Ranging (CIDAR) Challenge**, a **DARPA initiative** aiming to revolutionize **high-accuracy, low-latency passive ranging algorithms**.
+HubStack AI presents a state-of-the-art passive imaging solution for the Computational Imaging Detection and Ranging (CIDAR) Challenge, a DARPA initiative aiming to revolutionize high-accuracy, low-latency passive ranging algorithms.
 
 ### **📌 What is the CIDAR Challenge?**
-Current **active ranging methods** (e.g., **LADAR, LRF**) rely on emitted laser radiation, which compromises **stealth, safety, and resistance to jamming**. In contrast, **passive imaging** does not emit detectable signals, making it ideal for **ISR, autonomous navigation, and battlefield awareness**.  
+Current active ranging methods** (e.g., LADAR, LRF) rely on emitted laser radiation, which compromises stealth, safety, and resistance to jamming. In contrast, passive imaging does not emit detectable signals, making it ideal for ISR, autonomous navigation, and battlefield awareness.  
 
-DARPA's **CIDAR Challenge** seeks **passive ranging solutions** that **match or exceed** the performance of active systems while **minimizing floating-point operations (FLOPs)** for real-time processing. Passive imaging currently **extracts only ~1% of the theoretical distance information** in images, but by integrating **multi-spectral fusion, spatial filtering, and deep learning**, CIDAR aims to **improve accuracy by 10x–100x**, potentially enabling **passive rangefinding beyond 10 km**.  
+DARPA's CIDAR Challenge seeks passive ranging solutions that match or exceed the performance of active systems while minimizing floating-point operations (FLOPs) for real-time processing. Passive imaging currently extracts only ~1% of the theoretical distance information in images, but by integrating multi-spectral fusion, spatial filtering, and deep learning, CIDAR aims to improve accuracy by 10x–100x, potentially enabling passive rangefinding beyond 10 km.  
 
 ### **🎯 Desired Outcomes for the Department of Defense (DOD)**
 The **CIDAR Challenge** plays a crucial role in advancing **national defense and civilian applications**, offering **key advantages** over traditional active ranging systems:
